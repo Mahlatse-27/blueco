@@ -1,0 +1,23 @@
+.header {
+    padding: 2.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    position: relative;
+    color: #0721B6;
+}
+
+h1, span {
+    margin: 0;
+    padding: 0;
+}
+
+.header__logo span {
+    bottom: 3px;
+    right: -30px;
+    position: absolute;
+}
